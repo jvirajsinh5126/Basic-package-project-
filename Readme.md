@@ -1,16 +1,20 @@
-Signal Generation and Processing Package
+📦 Signal Generation and Operations Package
 
-This Python package provides tools for creating fundamental signals and applying basic operations on them. It was developed as part of the Long Hour Coding Exam.
+A Python package for generating fundamental signals and performing basic operations on them.
+Developed as part of the Long Hour Coding Exam by Prem Joshi.
 
-Package Contents
+✨ Features
 
-unitary_signals.py → Functions to generate unit step, unit impulse, and ramp signals.
+Unitary Signals → Unit Step, Unit Impulse, Ramp
 
-trigonometric_signals.py → Functions to create sine, cosine, and exponential signals.
+Trigonometric Signals → Sine, Cosine, Exponential
 
-operations.py → Utilities for performing operations like time shifting, scaling, addition, and multiplication.
+Operations → Time Shifting, Time Scaling, Addition, Multiplication
+
+Demo Script → Quickly test all features with one command
 
 Installation
 
 You can install the package from TestPyPI using the following command:
 pip install -i https://test.pypi.org/simple/ signal-ICT-Virajsinh-124==0.1.0
+
