@@ -1,0 +1,42 @@
+Metadata-Version: 2.4
+Name: signal_ICT_Virajsinh_124
+Version: 0.1.0
+Summary: A Python package for signal generation and basic operations.
+Home-page: https://github.com/j-virajsinh5126/PWP-LHC-124
+Author: Virajsinh
+Author-email: jadejaavirajsinh2002@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+Signal Generation and Processing Package
+
+This Python package provides tools for creating fundamental signals and applying basic operations on them. It was developed as part of the Long Hour Coding Exam.
+
+Package Contents
+
+unitary_signals.py → Functions to generate unit step, unit impulse, and ramp signals.
+
+trigonometric_signals.py → Functions to create sine, cosine, and exponential signals.
+
+operations.py → Utilities for performing operations like time shifting, scaling, addition, and multiplication.
+
+Installation
+
+You can install the package from TestPyPI using the following command:
+pip install --index-url https://test.pypi.org/simple/signal_ICT_Virajsinh_124
